@@ -1,0 +1,44 @@
+name: app
+description: "App Canhoto"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.2.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  shared_preferences: ^2.2.3
+  url_launcher: ^6.3.0
+  mask_text_input_formatter: ^2.9.0
+  connectivity_plus: ^6.0.5
+  get_it: ^7.7.0
+  dio: ^5.5.0
+  equatable: ^2.0.5
+  dartz: ^0.10.1
+  supabase_flutter: ^2.0.0
+  flutter_secure_storage: ^9.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/images/icon_foreground.png"
